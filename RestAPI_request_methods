@@ -1,0 +1,10 @@
+These methods define what king of request we are sending to SERVER/APPLICATION
+
+GET: Fetch data from Application
+POST: Add new data/resource to the Application
+PUT: Update data into Application (need to send all the data, including what's updated)
+DELETE: Delete data in Application
+PATCH: Similar to PUT method but will require to send only the updated data
+HEAD: Fetch only header data from the  Application
+OPTIONS: To find out which request methods a server supports (Allow: OPTIONS, GET, HEAD, POST)
+TRACE: This method performs a message loopback, meaning it will return message content as response, providing a useful debugging mechanism
