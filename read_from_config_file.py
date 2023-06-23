@@ -8,4 +8,4 @@ config = ConfigParser()
 config.read("./InputFiles/Config.cfg")
 
 # Print the parameter username from the section section1
-print(config.get("section1", "username"))   # passing section, parameter to the get method
+print(config.get('APIAutomation', 'base_url'))   # passing section, parameter to the get method
